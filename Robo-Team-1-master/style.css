@@ -154,16 +154,3 @@ img {
 			font-size: 25px;
 		}
 }
-
-@media only screen 
-	and (max-device-width: 1000px) 
-	and (max-device-height: 500px) 
-	and (orientation: landscape) {
-
-		#biggerbox {
-			height: auto;
-			border: #000000 5px solid;
-			border-radius: 4px;
-		}
-
-}
