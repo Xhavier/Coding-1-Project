@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="topbar">
+	<input id="upb" type="button" value="Update" onClick="location.href=location.href">
+    <input id="back" type="button" value="↩" onClick="self.location='https://0ryana.github.io/robo-tinder/'">
+</div>
+<div id="box" class="firstindent">
+    <h1 id="team">2477 Flex</h1>
+    <h2 id=compat>❤:<p id="ras"></h2>
+    	<label class="check">
+		<input type="checkbox" >
+		<span class="checkmark"></span>
+	</label>
+	<textarea id="text" rows="4" cols="50" name="comment" form="usrform" color="white">
+type here...</textarea>
+</div>
+<div id="box" class="boxindent">
+    <h1 id="team">6904 Sakura Tempesta</h1>
+    <h2 id="compat">❤:<p id="saku"></h2>
+    	<label class="check">
+		<input type="checkbox" >
+		<span class="checkmark"></span>
+	</label>
+	<textarea id="text" rows="4" cols="50" name="comment" form="usrform">
+type here...</textarea>
+</div>
+<div id="box" class="secondindent">
+    <h1 id="team">7724 Molakai Robatics</h1>
+    <h2 id="compat">❤:<p id="molo"></h2>
+    	<label class="check">
+		<input type="checkbox" >
+		<span class="checkmark"></span>
+	</label>
+	<textarea id="text" rows="4" cols="50" name="comment" form="usrform">
+type here...</textarea>
+</div>
+<script>
+	var c = Math.floor(Math.random() * 50) + 1;
+	var h = Math.floor(Math.random() * 50) + 1;
+	var b = Math.floor(Math.random() * 50) + 1;
+	var p = Math.floor(Math.random() * 50) + 1;
+	var c2 = Math.floor(Math.random() * 50) + 1;
+	var h2 = Math.floor(Math.random() * 50) + 1;
+	var b2 = Math.floor(Math.random() * 50) + 1;
+	var p2 = Math.floor(Math.random() * 50) + 1;
+	var c3 = Math.floor(Math.random() * 50) + 1;
+	var h3 = Math.floor(Math.random() * 50) + 1;
+	var b3 = Math.floor(Math.random() * 50) + 1;
+	var p3 = Math.floor(Math.random() * 50) + 1;
+	var r1 = (c + c) / 100;
+    var r2 = (c + c2) / 100; 
+    var r3 = (c + c3) / 100;
+    var ra1 = (h + h) / 100;
+    var ra2 = (h + h2) / 100; 
+    var ra3 = (h + h3) / 100;
+    var rb1 = (b + b) / 100;
+    var rb2 = (b + b2) / 100;
+    var rb3 = (b + b3) / 100;
+    var rc1 = (p + p) / 100;
+    var rc2 = (p + p2) / 100;
+    var rc3 = (p + p3) / 100;
+	document.getElementById("ras").innerHTML = (r1 + ra1 + rb1 + rc1) *25;
+	document.getElementById("saku").innerHTML = (r2 + ra2 + rb2 + rc2) *25;
+	document.getElementById("molo").innerHTML = (r3 + ra3 + rb3 + rc3) *25;
+</script>
+</body>
+</html>
