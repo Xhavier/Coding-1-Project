@@ -1,0 +1,132 @@
+body {
+	background-color: #C7C6C7
+}
+#box {
+    height: 180px;
+    width: 800px;
+    margin-left: 80px;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding-bottom: 40px;
+    padding-top: 8px;
+    background-color:#EE4B51
+}
+#text {
+	height: 103px;
+    width: 792px;
+    margin-left: -1px;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding-bottom: 40px;
+    padding-top: 8px;
+    font-size: 19px;
+    background-color:#ffffff
+}
+#team {
+    margin-left: 340px;
+    font-size: 35px;
+    margin-top: 10px;
+}
+#compat {
+    margin-top: -63px;
+    margin-left: 20px;
+}
+#ras {
+	margin-top: -26px;
+	margin-left: 45px;
+}
+#saku {
+	margin-top: -26px;
+	margin-left: 45px;
+}
+#molo {
+	margin-top: -26px;
+	margin-left: 45px;
+}
+#back {
+    margin-left: -556px;
+    height: 80px;
+    width: 100px;
+    font-size: 43px;
+    background-color: #009CD7;
+}
+#upb {
+	margin-left: 450px;
+	margin-top: 15px;
+	height: 50px;
+	width: 100px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #009CD7;
+}
+.firstindent {
+    margin-top: 130px;
+}
+.boxindent {
+    margin-top: 50px;
+}
+.secondindent{
+    margin-top: 50px
+}
+.topbar {
+    height: 80px;
+    width: 1000px;
+    position: fixed;
+    background-color: #009CD7;
+    margin-top: -130px;
+    margin-left: -8px
+}
+.check {
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+.check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.check:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.check input:checked ~ .checkmark {
+    background-color: #0BCD20;
+}
+.checkmark:after {
+    content: "✔";
+    position: absolute;
+    display: none;
+}
+.check input:checked ~ .checkmark:after {
+    display: block;
+}
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
