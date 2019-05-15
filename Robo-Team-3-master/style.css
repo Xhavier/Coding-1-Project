@@ -1,6 +1,6 @@
 /* Main Display */
 body {
-	background-color: #8C98A4;
+	background-color: #F4F5F6;
 }
 
 #bigbox {
@@ -26,7 +26,7 @@ body {
 #newcomp {
 	width: 50%;
 	height: 75%;
-	background-color: #EE4B51;
+	background-color: #EA1F23;
 	margin-left: 24.9%;
 	margin-right: 25%;
 }
