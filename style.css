@@ -1,6 +1,6 @@
 /* Main Display */
 body {
-	background-color: #8C98A4;
+	background-color: #F4F5F6;
 }
 
 #bigbox {
@@ -8,7 +8,7 @@ body {
 }
 
 #box1 {
-	background-color: #F9F9F9;
+	background-color: #FFFFFD;
 	width: 707px;
 	height: 500px;
 	margin-left: auto;
@@ -26,7 +26,7 @@ body {
 #newcomp {
 	width: 50%;
 	height: 75%;
-	background-color: #EE4B51;
+	background-color: #EA1F23;
 	margin-left: 24.9%;
 	margin-right: 25%;
 }
@@ -34,7 +34,7 @@ body {
 #maincomp {
 	width: 50%;
 	height: 75%;
-	background-color: #C7C6C7;
+	background-color: #FFFFFD;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 35px;
@@ -43,7 +43,7 @@ body {
 #end {
 	width: 50%;
 	height: 75%;
-	background-color: #009CD7;
+	background-color: #2E82C0;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 35px;
