@@ -8,7 +8,7 @@ body {
 }
 
 #box1 {
-	background-color: #F9F9F9;
+	background-color: #FFFFFD;
 	width: 312.5px;
 	height: 500px;
 	margin-left: auto;
@@ -34,7 +34,7 @@ body {
 #maincomp {
 	width: 50%;
 	height: 75%;
-	background-color: #C7C6C7;
+	background-color: #FFFFFD;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 35px;
@@ -43,7 +43,7 @@ body {
 #end {
 	width: 50%;
 	height: 75%;
-	background-color: #009CD7;
+	background-color: #2E82C0;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 35px;
