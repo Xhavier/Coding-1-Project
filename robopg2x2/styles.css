@@ -13,7 +13,7 @@ body {
 	padding-top: 5px;
 	border: 5px solid black;
 	border-radius: 25px;
-	background-color: #C7C6C7;
+	background-color: #FFFFFD;
 }
 #hc {
 	margin-left: 30px
@@ -32,7 +32,7 @@ body {
 	width: 100px;
 	font-size: 25px;
 	font-weight: bold;
-	background-color: #EE4B51;
+	background-color: #EA1F23;
 }
 #backb {
 	margin-left: -555px;
@@ -40,7 +40,7 @@ body {
 	width: 100px;
 	font-size: 43px;
 	font-weight: bold;
-	background-color: #EE4B51;
+	background-color: #EA1F23;
 }
 #draftb {
 	height: 60px;
@@ -49,19 +49,19 @@ body {
 	margin-top: 10px;
 	font-size: 25px;
 	font-weight: bold;
-	background-color: #EE4B51;
+	background-color: #EA1F23;
 }
 #BlueA {
 	height: 150px;
 	width: 1000px;
 	font-size: 50px;
-	background-color: #009CD7;
+	background-color: #2E82C0;
 }
 .topbar{
 	height: 80px;
 	width: 1000px;
 	position: fixed;
-	background-color: #EE4B51;
+	background-color: #EA1F23;
 	margin-top: -130px;
 	margin-left: -8px
 }
@@ -71,7 +71,7 @@ body {
 	position: fixed;
 	margin-top: 1465px;
 	margin-left: -8px;
-	background-color: #EE4B51;
+	background-color: #EA1F23;
 }
 .firstindent {
 	margin-top: 130px;
